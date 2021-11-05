@@ -1,0 +1,77 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    margin: 0px;
+    font-size: 23px;
+    width: 100%;
+}
+
+.note
+{
+    font-size: 18px;
+    color: brown;
+}
+
+.heading:hover
+{
+color: teal;
+border: 5px solid aquamarine;
+background-color: lightpink;
+}
+
+
+.div_volume
+{
+    float: right;
+    margin-top: 50px;
+}
+
+.div_volume_image
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume , #speed
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_speed
+{
+    float: left;
+    margin-top: 10px;
+}
+
+.div_speed_image
+{
+    width: 200px;
+    border-radius: 100px;
+    
+}
+
+.play_button , .stop_button
+{
+    font-size: 25px;
+    width: 150;
+}
+
+canvas
+{
+    margin-top: 100px;
+    border: 7px solid snow;
+    border-radius: 20px;
+    animation-name: dj;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes dj {
+    from{ border: 2px solid snow;}
+    to{border: 10px ridge red;}
+}
